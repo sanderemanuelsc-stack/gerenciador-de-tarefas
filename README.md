@@ -18,7 +18,7 @@ Aplicação web de lista de tarefas feita com **HTML, CSS e JavaScript puro** (s
 
 ## Como usar
 Abra o arquivo `index.html` no navegador ou acesse a versão online (GitHub Pages):
-`https://SEU-USUARIO.github.io/gerenciador-de-tarefas/`
+`https://sanderemanuelsc-stack.github.io/gerenciador-de-tarefas/`
 
 ## Estrutura
 ```
