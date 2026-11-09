@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciador de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>📋 Gerenciador de Tarefas</h1>
+
+    <form id="form-tarefa" autocomplete="off">
+      <input type="text" id="texto" placeholder="O que você precisa fazer?" maxlength="100" required>
+      <select id="prioridade" aria-label="Prioridade">
+        <option value="baixa">Baixa</option>
+        <option value="media" selected>Média</option>
+        <option value="alta">Alta</option>
+      </select>
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <div class="filtros">
+      <button data-filtro="todas" class="ativo">Todas</button>
+      <button data-filtro="pendentes">Pendentes</button>
+      <button data-filtro="concluidas">Concluídas</button>
+    </div>
+
+    <ul id="lista"></ul>
+
+    <footer>
+      <span id="contador"></span>
+      <button id="limpar" type="button">Limpar concluídas</button>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
